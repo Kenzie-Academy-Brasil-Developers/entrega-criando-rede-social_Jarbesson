@@ -1,0 +1,174 @@
+body {
+    font-family: 'Inter', sans-serif;
+
+
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px 50px;
+    background-color: var(--grey-1);
+    font-weight: var(--text2-font-weight);
+    font-size: var(--text2-font-size);
+    line-height: var(--text2-line-height);
+    position: fixed;
+    width: 100%;
+}
+
+
+.header__text {
+    color: white;
+}
+
+.item__image {
+    height: 3.125rem;
+
+}
+
+.main__container {
+    width: 90%;
+}
+
+.section__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 65%
+}
+
+.div__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    gap: 15px;
+}
+
+.item__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.div__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.section__first {
+    display: flex;
+    padding-top: 30px;
+}
+
+.section__container-post {
+    margin-top: 1rem;
+    width: 35%;
+    padding: 20px;
+}
+
+.div__item-post {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.title__post {
+    display: flex;
+    padding: 20px;
+}
+
+.title__post-listagem {
+    padding: 20px;
+}
+
+.texto__post-listagem {
+    padding: 20px;
+    text-overflow: ellipsis;
+    height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.modalPost {
+    width: 50%;
+}
+
+.closeModal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+@media(max-width: 425px) {
+
+    .header__container {
+        width: 100vh;
+        padding: 13px;
+        position: fixed;
+    }
+
+    .header__text {
+        position: absolute;
+        width: 100%;
+        left: 380px;
+    }
+
+    .section__first {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .section__container {
+        width: 100%;
+    }
+
+    .titulo__sugestoes {
+        width: 100%;
+
+    }
+
+    .list__container {
+        display: flex;
+        overflow-x: scroll;
+        padding-bottom: 10px;
+
+    }
+
+    .item__list {
+        flex-direction: column;
+    }
+
+    .section__container-post {
+        justify-content: baseline;
+        width: 100%;
+    }
+
+
+
+    @media(max-width: 375px) {
+        .header__text {
+            position: absolute;
+            width: 100%;
+            left: 330px;
+        }
+    }
+
+    @media(max-width: 320px) {
+        .header__text {
+            position: absolute;
+            width: 100%;
+            left: 280px;
+        }
+    }
+}

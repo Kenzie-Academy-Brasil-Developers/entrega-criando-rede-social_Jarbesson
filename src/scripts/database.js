@@ -1,4 +1,4 @@
-export const users = [
+  const users = [
   {
     id: 1,
     user: "Samuel Leão",
@@ -31,13 +31,13 @@ export const users = [
   },
 ];
 
-export const posts = [
+  const posts = [
   {
     id: 1,
     title:
       "Empresa de Tecnologia da Informação abre vagas para programa de estágio",
     text: "A Framework Digital, empresa mineira especializada em Tecnologia da Informação, irá iniciar o seu sexto programa de estágio, com o prazo de inscrições entre os dias 08 e 28 de agosto. O programa é conhecido como Framework Padawans, com inspiração nos filmes Star Wars. Nas histórias, os iniciantes fazem treinamentos para se tornar cavaleiros Jedi, que compõem o lado bom da força.",
-    user: "Samuel Persuhn",
+    user: "Iris Silva",
     stack: "Front end Engineer",
     img: "./src/assets/img/user2.svg",
     likes: 25
@@ -63,7 +63,7 @@ export const posts = [
   },
 ];
 
-export const suggestUsers = [
+  const suggestUsers = [
   {
     id: 1,
     user: "Carlos Lima",

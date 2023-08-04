@@ -1,0 +1,38 @@
+.name__user {
+    font-weight: var(--title2-font-weight);
+    font-size: var(--title2-font-size);
+    line-height: var(--title2-line-height);
+}
+
+.text__profile {
+    margin: 5px;
+    font-weight: var(--text2-font-weight);
+    font-size: var(--text2-font-size);
+    line-height: var(--text2-line-height);
+    color: var(--grey-2);
+
+}
+
+.titulo__sugestoes {
+    font-weight: var(--title2-font-weight);
+    font-size: var(--title2-font-size);
+    line-height: var(--title2-line-height);
+}
+
+.title__post {
+    font-weight: var(--title1-font-weight);
+    font-size: var(--title1-font-size);
+    line-height: var(--title1-line-height);
+}
+
+.title__post-listagem {
+    font-weight: var(--title1-font-weight);
+    font-size: var(--title1-font-size);
+    line-height: var(--title1-line-height);
+}
+
+.text__post-listagem {
+    font-weight: var(--text1-font-weight);
+    font-size: var(--text1-font-size);
+    line-height: var(--text1-line-height);
+}
